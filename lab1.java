@@ -20,8 +20,6 @@ public class lab1 {
 			
 			x[i] = Math.random() * 17 - 14.0; // Заполняем случайными числами в диапазоне [-3;14]
 			
-			System.out.println(x[i]);
-			
 		}
 		
 		double[][] matrix = new double[10][10]; // Матрица для третьего задания
@@ -40,13 +38,11 @@ public class lab1 {
 					
 				};
 				
-				System.out.printf("%.3f", matrix[i][j]); // Вывод матрицы для 4-ого задания (строки 41-47)
-				
-				System.out.print(" ");
+				System.out.printf("%-12.3f", matrix[i][j]); // Вывод матрицы для 4-ого задания (строки 41-47)
 				
 			}
 			
-			System.out.println();
+			System.out.println("\n");
 			
 		}	
 		
